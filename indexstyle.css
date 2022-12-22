@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    background-color: #0c4980;
+    color: white;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+header >nav > div > a {
+    color: white;
+    text-decoration: none;
+}
+header > nav > div > a:hover{
+    transition: 300ms;
+    color: orange;
+}
+.mickey_mouse_image > a > img {
+    height: 100px;
+}
