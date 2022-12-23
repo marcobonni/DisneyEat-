@@ -115,6 +115,7 @@ figure {
 }
 figure:hover {
     background-color: rgb(48, 80, 223);
+
     border-radius: 5px;
 }
 #sidebar {
@@ -148,5 +149,3 @@ ul{
 .desc{
     color: white;
 }
-
-
