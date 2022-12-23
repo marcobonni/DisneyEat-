@@ -117,3 +117,36 @@ figure:hover {
     background-color: rgb(48, 80, 223);
     border-radius: 5px;
 }
+#sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #A5DCE5;
+    height: 100vh;
+    flex: 1;
+}
+ul{
+    list-style: none;
+}
+.ul-sidebar > li > a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 28px;
+    
+}
+.ul-sidebar > li > a:hover{
+    color:white;
+    transition: 300ms;
+}
+.ul-sidebar > li{
+    margin: 0 75px 75px 0; 
+}
+.desc{
+    color: white;
+}
+
+
