@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    order:4;
+    border: 5px solid rgb(29, 94, 173);
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+    background-color: rgb(48, 80, 223);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    border-radius: 5%;
+}
+
+a:hover {
+    background-color: rgb(16, 42, 160);
+}
+
+p {
+    font-size: 24px;
+    
+}
+
+figure {
+    padding: 20px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+figure:hover {
+    background-color: rgb(48, 80, 223);
+    border-radius: 5px;
+}
