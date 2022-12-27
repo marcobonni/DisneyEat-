@@ -10,7 +10,6 @@ body {
 }
 
 header {
-    grid-area: header;
     display: flex;
     align-items: center;
     font-size: 70px;
@@ -44,12 +43,8 @@ main {
     padding-bottom: 0px;
 }
 .title_menu {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
-}
-.antipast {
-    font-size: 24px;
-    text-align: center;
 }
 ul {
     list-style-type: none;
@@ -58,7 +53,6 @@ p {
     font-size: 24px;
 }
 footer {
-    grid-area: footer;
     border: 5px solid rgb(29, 94, 173);
     display: flex;
     justify-content: space-around;
