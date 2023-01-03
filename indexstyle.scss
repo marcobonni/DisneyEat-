@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+$blue : #113ccf;
+$celeste : #bff5fd;
+$white : #fff;
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $celeste;
+    ul {
+        list-style-type: none;
+    }
+    p {
+        font-size: 24px;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        font-size: 70px;
+        background-color: $blue;
+        color: $white;
+        .mickey_mouse_image {
+            a {
+                img {
+                    height: 100px;
+                }
+            }
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex: 1;
+            div {
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    &:hover {
+                        transition: 300ms;
+                        color: $celeste;
+                    }
+                }
+            }
+        }
+    }
+    .central {
+        display: flex;
+        .sidebar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+            padding: 0px;
+            background-color: $celeste;
+            height: 100vh;
+            border-right: 5px solid $blue;
+            .ul-sidebar {
+                li {
+                    margin: 0px 75px 75px 0px;
+                    a {
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 28px;
+                        &:hover {
+                            color: $white;
+                            transition: 300ms;
+                        }
+                    }
+                    .desc {
+                        color: $white;
+                }
+            }
+        }
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        background-color: $celeste;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 5%;
+        padding-bottom: 0px;
+        .title_menu {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .menu_voices {
+            li {
+                padding: 5vh;
+                font-size: 24px;
+            }
+        }
+    }
+    }
+    footer {
+        border:5px solid $blue;
+        display: flex;
+        justify-content: space-around;
+        font-size: 24px;
+        .contatti, .indirizzo {
+            a {
+                text-decoration: none;
+                align-items: center;
+                background-color: $blue;
+                color: $white;
+                display: flex;
+                justify-content: space-around;
+                height: 50px;
+                border-radius: 5%;
+            }
+        }
+        figure {
+            padding: 20px;
+            margin-left: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            border-radius: 50%;
+            a {
+                border-radius: 50%;
+                &:hover {
+                    transition: 300ms;
+                    background-color: $blue;
+                }
+            }
+        }
+    }
+}
