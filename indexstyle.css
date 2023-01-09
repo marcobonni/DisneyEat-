@@ -116,4 +116,63 @@ body footer figure a:hover {
   background-color: #113ccf;
 }
 
+.presentation {
+  color: #fff;
+  text-align: center;
+  font-family: "WaltographRegular";
+}
+
+h2 {
+  font-family: "WaltographRegular";
+  font-size: 32px;
+}
+
+.mickeymouse {
+  display: inline-block;
+  border: 3px solid #113ccf;
+  margin: 50px;
+  padding: 10px;
+}
+
+.img_mickey {
+  float: right;
+  height: 250px;
+}
+
+.pluto {
+  display: inline-block;
+  border: 3px solid #113ccf;
+  margin: 50px;
+  padding: 10px;
+}
+
+.img_pluto {
+  float: right;
+  height: 250px;
+}
+
+.pippo {
+  display: inline-block;
+  border: 3px solid #113ccf;
+  margin: 50px;
+  padding: 10px;
+}
+
+.img_pippo {
+  float: right;
+  height: 250px;
+}
+
+.minnie {
+  display: inline-block;
+  border: 3px solid #113ccf;
+  margin: 50px;
+  padding: 10px;
+}
+
+.img_minnie {
+  float: right;
+  height: 250px;
+}
+
 /*# sourceMappingURL=indexstyle.css.map */
